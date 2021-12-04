@@ -35,7 +35,30 @@
                   alt="title">
             </a>
             <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto">
-               <ul
+               <!-- <form class="header-newsletter hidden lg:flex items-center">
+                        <div
+                            class="flex flex-1 items-center xl:w-80 bg-white shadow transition duration-500 hover:shadow-lg rounded h-14 p-4 mr-6">
+                            <img class="w-6 h-6 flex-shrink-0 p-1" src="assets/images/search-icon.svg" alt="title">
+                            <input
+                                class="appearance-none bg-transparent border-none w-full text-blueGray-600 mr-3 py-1 px-2 leading-tight focus:outline-none"
+                                type="text" placeholder="Search items">
+                        </div>
+
+                    </form> -->
+               <form class="header-newsletter 2xl:pl-24 w-full hidden lg:flex items-center">
+                  <div
+                     class="flex flex-1 items-center w-full border border-blueGray-300 transition duration-500 hover:shadow-lg rounded h-14 p-4">
+                     <img class="w-6 h-6 flex-shrink-0 p-1" src="assets/images/search-icon.svg" alt="title">
+                     <input
+                        class="appearance-none bg-transparent border-none w-full text-blueGray-600 mr-3 py-1 px-2 leading-tight focus:outline-none"
+                        type="text" placeholder="Search items">
+                  </div>
+                  <!-- <button
+                            class="btn hidden xl:flex items-center text-white font-body font-semibold rounded h-14 p-4 ml-6 transition-all duration-500 bg-gradient-to-tl from-indigo-500 via-purple-500 to-indigo-500 bg-size-200 bg-pos-0 hover:bg-pos-100"
+                            type="submit"><img class="w-4 h-4 flex-shrink-0 mr-2" src="assets/images/wallet-icon.svg"
+                                title="title"> Connect Wallet</button> -->
+               </form>
+               <ul style="margin-left: 20px;"
                   class="mobile-menu bg-white lg:bg-transparent shadow lg:shadow-none absolute lg:relative inset-x-0 hidden lg:flex lg:flex-grow items-center text-base text-blueGray-600 font-semibold mt-7 lg:mt-0 mobile-hover">
 
                   <li class="relative dropdown lg:mr-4">
@@ -47,39 +70,14 @@
                   </li>
                   <!-- <li><a class='p-4 flex items-center hover:text-indigo-500 transition duration-500'
                         href='create-item.html'> Create </a></li> -->
-                  <li class="relative dropdown lg:mr-4">
-                     <a class="p-4 flex items-center hover:text-indigo-500 transition duration-500 arrow" href="#"> category
-                        <span
-                           class="leading-5 text-2xl text-center bg-blueGray-100  w-6 h-6 absolute right-2 top-4 block lg:hidden toggle">+</span></a>
-                     <ul
-                        class="hidden lg:block bg-white lg:absolute top-full lg:shadow lg:w-44 transition duration-500 submenu">
-                        <li><a class='py-3 px-4 flex items-center hover:bg-indigo-100 hover:text-indigo-500 transition duration-500'
-                              href=''> Wedding</a></li>
-                        <li><a class='py-3 px-4 flex items-center hover:bg-indigo-100 hover:text-indigo-500 transition duration-500'
-                              href=''> Nature</a></li>
-                        <li><a class='py-3 px-4 flex items-center hover:bg-indigo-100 hover:text-indigo-500 transition duration-500'
-                              href=''> season</a></li>
-                     </ul>
-                  </li>
-                  
+
+
                   <li><a class='p-4 flex items-center hover:text-indigo-500 transition duration-500'
                         href='contact.html'> Contact </a></li>
                </ul>
-               <form class="header-newsletter hidden lg:flex items-center">
-                  <div
-                     class="flex flex-1 items-center xl:w-80 bg-white shadow transition duration-500 hover:shadow-lg rounded h-14 p-4 mr-6">
-                     <img class="w-6 h-6 flex-shrink-0 p-1" src="assets/images/search-icon.svg" alt="title">
-                     <input
-                        class="appearance-none bg-transparent border-none w-full text-blueGray-600 mr-3 py-1 px-2 leading-tight focus:outline-none"
-                        type="text" placeholder="Search items">
-                  </div>
 
-               </form>
-               <!-- <a href="login.html"
-                  class="btn hidden xl:flex items-center text-white font-body font-semibold rounded h-14 p-4 ml-6 transition-all duration-500 bg-gradient-to-tl from-indigo-500 via-purple-500 to-indigo-500 bg-size-200 bg-pos-0 hover:bg-pos-100">
-                  Login
-               </a> -->
-               <ul class="mobile-menu flex-shrink-0">
+
+               <!-- <ul class="mobile-menu flex-shrink-0">
                   <li class="relative dropdown"><a href="#"
                         class="hidden 2xl:flex items-center border border-blueGray-300 from-purple-500 to-indigo-500 text-blueGray-600 font-body font-bold rounded h-14 p-4 ml-6"><img
                            class="w-6 h-6 object-cover rounded-full flex-shrink-0  mr-2"
@@ -97,12 +95,14 @@
                         <li><a class='py-1 px-2 flex items-center font-body font-semibold text-blueGray-600 hover:bg-indigo-100 hover:text-indigo-500 transition duration-500'
                               href='creator-published.html'>My Profile</a></li>
                         <li><a class='py-1 px-2 flex items-center font-body font-semibold text-blueGray-600 hover:bg-indigo-100 hover:text-indigo-500 transition duration-500'
-                              href='create-item.html'>Create Item</a></li>
-                        <li><a class='py-1 px-2 flex items-center font-body font-semibold text-blueGray-600 hover:bg-indigo-100 hover:text-indigo-500 transition duration-500'
                               href='login.html'>Logout</a></li>
                      </ul>
                   </li>
-               </ul>
+               </ul> -->
+               <a href="register.html" 
+                  class="btn hidden xl:flex items-center text-white font-body font-semibold rounded h-14 p-6 ml-6 transition-all duration-500 bg-gradient-to-tl from-indigo-500 via-purple-500 to-indigo-500 bg-size-200 bg-pos-0 hover:bg-pos-100">
+                  login
+               </a>
             </div>
             <button class="bg-blueGray-50 mobile-toggle block lg:hidden">
                <span class="bg-blueGray-600"></span>
